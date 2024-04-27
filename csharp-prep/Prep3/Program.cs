@@ -22,7 +22,7 @@ class Program
             }
             else
             {
-                Console.WriteLine("YOU DID IT!");
+                Console.WriteLine("You guessed it!");
             }
 
         }                    
