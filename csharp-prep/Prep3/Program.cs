@@ -1,8 +1,7 @@
 using System;
 
 class Program
-{
-    static void Main(string[] args)
+{static void Main(string[] args)
     {
         // For Parts 1 and 2, where the user specified the number...
         // Console.Write("What is the magic number? ");
