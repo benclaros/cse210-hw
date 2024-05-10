@@ -1,12 +1,13 @@
 using System;
-    class Program
+using System.Runtime;
+class Program
 {
-    static public void Main(String[] args)
+     static public void Main(String[] args)
     {
         Journal journal1 = new Journal();
         ReadJournal FLR = new ReadJournal();
 
-        string userInput = "";
+         string userInput = "";
 
         while (userInput !="5")
         {

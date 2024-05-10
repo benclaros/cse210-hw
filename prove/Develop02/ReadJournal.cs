@@ -2,25 +2,26 @@ using System;
 public class ReadJournal{
     List<Entry1>entrylist = new List<Entry1>();
     public void writefile(List<Entry1> entrylist){
-      string filename = promptfile($"what is the file name?");
+      string filename = promptFile($"what is the file name?");
       using (StreamWriter outputFile = new StreamWriter(filename))
-      foreach (var entry in entrylist){
+      foreach (var entry in entrylist)
+      {
 
         outputFile.WriteLine(entry.something());
 
       }
     }
-    public string promptfile(string promptquestion){
-      Console.Write(promptquestion);
-      string filename = Console.ReadLine();
-      filename = "journal.txt";
-      return filename;    
+    public string promptFile(string promptQuestion){
+      Console.Write(promptQuestion);
+      string fileName = Console.ReadLine();
+      fileName = "journal.txt";
+      return fileName;    
     }
 
     public List<Entry1>readFile()
     {
-      string filename = promptfile($"what is the file name?");;
-      string[] lines = System.IO.File.ReadAllLines(filename);
+      string fileName = promptFile($"what is the file name?");;
+      string[] lines = System.IO.File.ReadAllLines(fileName);
 
 
         foreach (string line in lines)
