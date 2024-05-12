@@ -1,5 +1,5 @@
 using System;
-namespace CSE210_Projects;
+namespace cse210_hw;
 
 
 class Scripture
