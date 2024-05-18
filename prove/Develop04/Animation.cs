@@ -1,7 +1,7 @@
 public static class Animations{
 
 public static void frame1(){
-    Console.WriteLine("On Your Marks... ");
+    Console.WriteLine("Loading... ");
     Console.WriteLine(".......");
     Console.WriteLine(".-----.");
     Console.WriteLine(" .---. ");
@@ -13,7 +13,7 @@ public static void frame1(){
 }
 
 public static void frame2(){
-    Console.WriteLine("Get Ready...");
+    Console.WriteLine("Loading...");
     Console.WriteLine(".......");
     Console.WriteLine(".     .");
     Console.WriteLine(" .---. ");
@@ -25,7 +25,7 @@ public static void frame2(){
 }
 
 public static void frame3(){
-    Console.WriteLine("Get Set...");
+    Console.WriteLine("Loading...");
     Console.WriteLine(".......");
     Console.WriteLine(".     .");
     Console.WriteLine(" .   . ");
