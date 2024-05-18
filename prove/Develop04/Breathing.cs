@@ -8,7 +8,7 @@ public class Breathing : Activity
 
     public void displayDescription()
     {
-        Console.WriteLine("This activity will help you to relax by instructing you to breath in and out solowly. Clear your mind  and focus on your breathing\n");
+        Console.WriteLine("This activity will help you to relax by instructing you to breath in and out slowly. Clear your mind  and focus on your breathing\n");
     }
 
     public void Breath(int seconds)
