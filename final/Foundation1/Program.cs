@@ -19,6 +19,7 @@ namespace YouTubeMonitoring
             Video video2 = new Video("5 special tips about how to heal your teammate", "Mazino, SKT T1", 1280);
             video2.AddComment(new Comment("Cesar", "Another awesome video Maz"));
             video2.AddComment(new Comment("V U", "Good as always Maz"));
+            video2.AddComment(new Comment("Flazz", "This kid is crazy"));
             videos.Add(video2);
 
             Video video3 = new Video("How to become a Pro Player in Valorant", "Horus, TLC", 540);
